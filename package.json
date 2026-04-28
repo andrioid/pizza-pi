@@ -1,0 +1,25 @@
+{
+  "name": "pizza-pi",
+  "version": "0.1.0",
+  "description": "A pi package with a few tasty toppings (extensions) for pi.",
+  "keywords": ["pi-package", "pi", "pi-extension"],
+  "license": "MIT",
+  "author": "andrioid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrioid/pizza-pi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrioid/pizza-pi/issues"
+  },
+  "homepage": "https://github.com/andrioid/pizza-pi#readme",
+  "pi": {
+    "extensions": ["./extensions/*.ts"]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-ai": "*",
+    "@mariozechner/pi-tui": "*",
+    "typebox": "*"
+  }
+}
