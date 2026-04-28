@@ -23,6 +23,14 @@ Commands:
 - `/loading-the-matrix on` — enable (default)
 - `/loading-the-matrix off` — restore pi's default spinner
 
+## Themes
+
+### `matrix`
+
+A phosphor-green CRT theme tuned for that "jacked into the construct" look. Pairs naturally with `loading-the-matrix` — the spinner's head/body/tail/fade levels map onto the theme's `phosphorBright` / `phosphor` / `phosphorDim` / `phosphorText` ramp.
+
+Activate with `/theme matrix` (or set it in `settings.json`).
+
 ## Install
 
 > **Heads up:** pi packages run with full system access. Read the source before installing.

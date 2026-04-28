@@ -1,6 +1,6 @@
 {
   "name": "pizza-pi",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A pi package with a few tasty toppings (extensions) for pi.",
   "keywords": ["pi-package", "pi", "pi-extension"],
   "license": "MIT",
@@ -14,7 +14,8 @@
   },
   "homepage": "https://github.com/andrioid/pizza-pi#readme",
   "pi": {
-    "extensions": ["./extensions/*.ts"]
+    "extensions": ["./extensions/*.ts"],
+    "themes": ["./themes/*.json"]
   },
   "peerDependencies": {
     "@mariozechner/pi-coding-agent": "*",
