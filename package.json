@@ -1,6 +1,6 @@
 {
   "name": "pizza-pi",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A pi package with a few tasty toppings (extensions) for pi.",
   "keywords": ["pi-package", "pi", "pi-extension"],
   "license": "MIT",

@@ -13,6 +13,16 @@ A status footer that uses Nerd Font glyphs to show project and LLM context at a 
 
 Requires a [Nerd Font](https://www.nerdfonts.com/) in your terminal to render the glyphs correctly.
 
+### `loading-the-matrix`
+
+Replaces pi's default working spinner with a cascading column of half-width katakana — Matrix-style falling code — and rotates through 30+ in-universe working messages ("Following the white rabbit...", "Dodging bullets...", "There is no spoon..."). Colors come from the active theme, so it adapts to any palette and looks especially right on the `matrix` theme.
+
+Commands:
+
+- `/loading-the-matrix` — show current state
+- `/loading-the-matrix on` — enable (default)
+- `/loading-the-matrix off` — restore pi's default spinner
+
 ## Install
 
 > **Heads up:** pi packages run with full system access. Read the source before installing.
